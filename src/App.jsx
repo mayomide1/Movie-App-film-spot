@@ -7,7 +7,7 @@ import MovieCard from "./Components/MovieCard";
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ODE3NDU4MzlhNjFmMzRmNWE3MzQ3YzViNmEzNjEzYiIsIm5iZiI6MTc1NjQ3MDAxMy4xMTIsInN1YiI6IjY4YjE5YWZkNDUwNDYwYjQ5MTM5NmYyZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.sIT9oL3hIt3Qno4DjzDKphGkfW_GIYd476PAyUqFGak";
 
 const API_OPTIONS = {
   method: 'GET',
